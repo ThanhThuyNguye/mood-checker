@@ -1,0 +1,77 @@
+body {
+  background: white;
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 25px;
+}
+
+.container {
+  background: #fef9c2;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 60%;
+  display: block;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+p{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.moods {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 35px;
+  margin: 35px;
+}
+
+.happy {
+  border: 1px solid #fff085;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff085;
+  font-size: 20px;
+}
+
+.happy:hover {
+  background-color: #ffb86a;
+}
+.tired {
+  border: 1px solid #fff085;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff085;
+  font-size: 20px;
+}
+
+.tired:hover {
+  background-color: #CAD5E2;
+}
+.sad {
+  border: 1px solid #fff085;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff085;
+  font-size: 20px;
+}
+
+.sad:hover {
+  background-color: #8EC5FF;
+}
+
+.emoji {
+  font-size: 50px;
+}
