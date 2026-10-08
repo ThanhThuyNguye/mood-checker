@@ -3,25 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Mood Checker</title>
   </head>
   <body>
     <div class="container">
       <h1>How are you feeling today?</h1>
-      <div class="happy">
-        <div class="happy-emoji">😄</div>
-        Happy
+      <p>Select mood below</p>
+      <div class="moods">
+        <button class="happy">
+          <div class="emoji">😄</div>
+          Happy
+        </button>
+        <button class="tired">
+          <div class="emoji">😴</div>
+          Tired
+        </button>
+        <button class="sad">
+          <div class="emoji">☹️</div>
+          Sad
+        </button>
       </div>
-      <div class="tired">
-        <div class="tired-emoji">😴</div>
-        Tired
-      </div>
-      <div class="sad">
-        <div class="sad-emoji">☹️</div>
-        Sad
-      </div>
-
-      <button>Select your mood</button>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
