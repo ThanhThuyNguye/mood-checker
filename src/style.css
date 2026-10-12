@@ -1,16 +1,16 @@
 body {
-  background: white;
+  background: #FFFBEB;
   font-family: sans-serif;
-  padding: 20px;
-  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
   background: #fef9c2;
-  padding: 20px;
-  margin: 0 auto;
   max-width: 60%;
-  display: block;
+  padding: 25px;
 }
 
 h1 {
@@ -20,16 +20,33 @@ h1 {
   margin-bottom: 10px;
 }
 
-p{
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 18px;
+p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+footer  {
+  text-align: center;
+  font-size: 14px;
+  color: #6A7282;
+}
+
+a {
+  color: #6A7282;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #F54927;
+  text-decoration: underline;
 }
 
 .moods {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   padding: 35px;
   margin: 35px;
@@ -57,7 +74,7 @@ p{
 }
 
 .tired:hover {
-  background-color: #CAD5E2;
+  background-color: #cad5e2;
 }
 .sad {
   border: 1px solid #fff085;
@@ -69,7 +86,7 @@ p{
 }
 
 .sad:hover {
-  background-color: #8EC5FF;
+  background-color: #8ec5ff;
 }
 
 .emoji {
