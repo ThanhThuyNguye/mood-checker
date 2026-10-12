@@ -92,3 +92,10 @@ a:hover {
 .emoji {
   font-size: 50px;
 }
+
+
+.mood-message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
